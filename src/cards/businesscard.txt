@@ -1,0 +1,124 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "image",
+        "margin": "md",
+        "url": "https://mail.jut.com.tw/logo.png"
+      },
+      {
+        "type": "image",
+        "url": "https://eip.jut.com.tw/upload/user/${vcard.image}.jpg",
+        "size": "xl"
+      },   
+      {
+        "type": "text",
+        "color": "#ffffff",
+        "text": "world",
+        "size": "xs",
+        "align": "start",
+        "margin": "sm",
+        "wrap": true
+      },
+      {
+        "type": "text",
+        "text": "${vcard.gecos}",
+        "size": "md",
+        "align": "center",
+        "margin": "md",
+        "wrap": true,
+        "weight": "bold"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "text",
+        "color": "#ffffff",
+        "text": "world",
+        "size": "xs",
+        "align": "start",
+        "margin": "sm",
+        "wrap": true
+      },
+      {
+        "type": "text",
+        "text": "公司：${vcard.sn}",
+        "size": "xs",
+        "align": "start",
+        "margin": "sm",
+        "wrap": true
+      },
+      {
+        "type": "text",
+        "text": "職稱：${vcard.title}",
+        "size": "xs",
+        "align": "start",
+        "margin": "sm",
+        "wrap": true
+      },
+      {
+        "type": "text",
+        "text": "部門：${vcard.post}",
+        "size": "xs",
+        "align": "start",
+        "margin": "sm",
+        "wrap": true
+      },
+      {
+        "type": "text",
+        "text": "地址：台北市大安區市民大道三段178號8F",
+        "size": "xs",
+        "align": "start",
+        "margin": "sm",
+        "wrap": true
+      },
+      {
+        "type": "text",
+        "text": "信箱：${vcard.mail}",
+        "size": "xs",
+        "align": "start",
+        "margin": "sm",
+        "wrap": true
+      },
+      {
+        "type": "text",
+        "text": "電話：02-8772-1688#${vcard.tel}",
+        "size": "xs",
+        "align": "start",
+        "margin": "sm",
+        "wrap": true
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "忠泰集團官網",
+              "size": "xs",
+              "uri": "https://jutgroup.jut.com.tw/"
+            },
+            "style": "link"
+          }
+        ],
+        "paddingTop": "10px"
+      }
+    ]
+  },
+  "styles": {
+    "header": {
+      "backgroundColor": "#00B900"
+    }
+  }
+}
